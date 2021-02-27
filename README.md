@@ -1,6 +1,6 @@
 # Waterfall configs for ROEngines (work in progress)
 Waterfall configs for ROEngines.
-Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied them to the engines.
+Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied the templates to the engines.
 There are also BDB_HTP_vernier.cfg and BDB_HTP_vernierVac.cfg included. These templates are from BDB. I did not modify them.
 
 ## Engines Configured:
