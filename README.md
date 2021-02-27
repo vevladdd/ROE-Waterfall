@@ -19,4 +19,4 @@ There are also BDB_HTP_vernier.cfg and BDB_HTP_vernierVac.cfg included. These te
 * RD-0105 from Luna and Vostok rockets
 * RD-253/0210/0212 from Proton
 
-If you found something bad here, please make an issue or a PR.
+If you find something bad here, please make an issue or a PR.
