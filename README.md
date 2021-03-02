@@ -1,7 +1,7 @@
 # Waterfall configs for ROEngines (work in progress)
 Waterfall configs for ROEngines.
-Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied the templates to the engines.
-There are also BDB_HTP_vernier.cfg and BDB_HTP_vernierVac.cfg included. These templates are from BDB. I did not modify them.
+Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied the templates to the engines. Also thanks to damonvv for the GeminiWhoop sound.
+There are BDB_HTP_vernier.cfg, BDB_HTP_vernierVac.cfg and GeminiWhoop.ogg included. These files are from BDB. I did not modify them.
 
 ## Engines Configured:
 * LR-79 from Thor
@@ -18,5 +18,13 @@ There are also BDB_HTP_vernier.cfg and BDB_HTP_vernierVac.cfg included. These te
 * RD-108 and 107 from R-7 family
 * RD-0105 from Luna and Vostok rockets
 * RD-253/0210/0212 from Proton
+* LR87 and LR87-AJ-11 from Titan (Only AZ50/NTO plume, Kerolox plume needs help)
+* LR91 from Titan (Same problem as with LR87)
+* LR87-LH2 and its vacuum version
+* NK family from N-1
+* RD-58 from Blok-D
+* BE-4 from Vulcan and New Glenn
+* Raptor and Raptor Vacuum from Starship 
+* 
 
 If you find something bad here, please make an issue or a PR.
