@@ -26,5 +26,6 @@ There are BDB_HTP_vernier.cfg, BDB_HTP_vernierVac.cfg and GeminiWhoop.ogg includ
 * RD-58 from Blok-D
 * BE-4 from Vulcan and New Glenn
 * Raptor and Raptor Vacuum from Starship 
-* 
+* Agenas
+* XLR-41/43, A-6 (only alcolox plume)
 If you find something bad here, please make an issue or a PR.
