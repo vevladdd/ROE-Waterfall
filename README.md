@@ -1,7 +1,11 @@
 # Waterfall configs for ROEngines (work in progress)
 Waterfall configs for ROEngines.
-Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied the templates to the engines. Also thanks to damonvv for the GeminiWhoop sound.
-There are BDB_HTP_vernier.cfg, BDB_HTP_vernierVac.cfg and GeminiWhoop.ogg included. These files are from BDB. I did not modify them.
+
+## !!!!!!!!!HOW TO INSTALL!!!!!!!!!
+1. Install Waterfall **Waterfall** (https://github.com/post-kerbin-mining-corporation/Waterfall).
+2. Download my package: press the green button "Code" and click on the "Download ZIP".
+3. Unpack into **GameData** and *agree* to overwrite.
+4. Launch the game
 
 ## Engines Configured:
 * LR-79 from Thor
@@ -28,4 +32,8 @@ There are BDB_HTP_vernier.cfg, BDB_HTP_vernierVac.cfg and GeminiWhoop.ogg includ
 * Raptor and Raptor Vacuum from Starship 
 * Agenas
 * XLR-41/43, A-6 (only alcolox plume)
-If you find something bad here, please make an issue or a PR.
+* 
+If you find something bad here, please make an issue or a PR. Or write in RO discord.
+
+Zorg and Nertea are the authors of the used templates. Thanks to them. I only applied the templates to the engines. Also thanks to damonvv for the GeminiWhoop sound.
+There are BDB_HTP_vernier.cfg, BDB_HTP_vernierVac.cfg and GeminiWhoop.ogg included. These files are from BDB. I did not modify them.
