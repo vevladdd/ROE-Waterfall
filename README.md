@@ -2,7 +2,7 @@
 Waterfall configs for ROEngines.
 
 ## !!!!!!!!!HOW TO INSTALL!!!!!!!!!
-1. Install Waterfall **Waterfall** (https://github.com/post-kerbin-mining-corporation/Waterfall).
+1. Install Waterfall 0.5.0 (AVOID THE LATEST ONE) **Waterfall** (https://github.com/post-kerbin-mining-corporation/Waterfall).
 2. Download my package: press the green button "Code" and click on the "Download ZIP".
 3. Unpack into **GameData** and *agree* to overwrite.
 4. Launch the game
