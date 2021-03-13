@@ -8,7 +8,7 @@ Work-in-progress Waterfall configs for Realism Overhaul mods.
 
 **Please note that the latest version moved several files. Delete the `GameData/ROEngines/Waterfall` folder when updating.**
 
-**These configurations are based on the git versions of Realism Overhaul and ROEngines. Using the release (i.e., CKAN) versions of these mods will break certain plumes.**
+**These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.**
 
 1. Install the latest version of [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall).
 2. Download this package: Press the green button "Code" and click on "Download ZIP".
