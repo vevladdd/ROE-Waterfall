@@ -1,8 +1,8 @@
 # Waterfall configs for ROEngines (work in progress)
-Waterfall configs for ROEngines.
+Waterfall configs for ROEngines. NOTE: some of the engines doesn't use the new system by al2me6 (https://github.com/vevladdd/ROE-Waterfall/pull/2)
 
 ## !!!!!!!!!HOW TO INSTALL!!!!!!!!!
-0. Delete previous Waterfall folder in ROEngines!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+0. Delete previous Waterfall folder in ROEngines!. 
 1. Install **Waterfall** (https://github.com/post-kerbin-mining-corporation/Waterfall).
 2. Download my package: press the green button "Code" and click on the "Download ZIP".
 3. Unpack into **GameData** and *agree* to overwrite.
