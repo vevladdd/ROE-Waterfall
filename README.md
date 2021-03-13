@@ -8,7 +8,7 @@ Work-in-progress Waterfall configs for Realism Overhaul mods.
 
 **Please note that the latest version moved several files. Delete the `GameData/ROEngines/Waterfall` folder when updating.**
 
-Note that these configurations are based on the git versions of Realism Overhaul and ROEngines.
+**These configurations are based on the git versions of Realism Overhaul and ROEngines. Using the release (i.e., CKAN) versions of these mods will break certain plumes.**
 
 1. Install the latest version of [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall).
 2. Download this package: Press the green button "Code" and click on "Download ZIP".
@@ -16,6 +16,8 @@ Note that these configurations are based on the git versions of Realism Overhaul
 4. Launch the game.
 
 If you prefer engine lights from Engine Lighting Relit instead of Waterfall, create an empty folder named `ROWaterfallNoEngineLight` under `GameData`.
+
+The eventual goal is to merge this patchset into the relevant RO mods; this unconventional installation process is only temporary.
 
 ## Currently Configured Parts
 
