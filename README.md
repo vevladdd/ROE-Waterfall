@@ -66,6 +66,10 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * Methalox
     * BE-4 (Vulcan and New Glenn)
     * Raptor, sea-level and vacuum variants (Starship)
+  * Kerosene + Nitric Acid
+    * RD-200
+    * RD-211 (R-12 and Kosmos-2)
+	* S2.253 (Scud)
 * Realism Overhaul
   * RCS blocks from ReStock
   * RCS blocks from ReStock Plus
