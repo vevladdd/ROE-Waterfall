@@ -70,6 +70,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * RCS blocks from ReStock
   * RCS blocks from ReStock Plus
   * RCS blocks from Ven's New Parts
+* Real Scale Sea Dragon
+  * First and second stage engines
+  * TVC engine
 
 If you find something bad here, please open an issue or a PR. Or write in the Realism Overhaul discord.
 
