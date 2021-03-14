@@ -41,6 +41,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Agena family (Agena upper stage)
     * Early and Mid-period AJ10 (Able and Delta upper stages)
     * AJ10-137 (Apollo spacecraft)
+    * AJ10-190 (Space Shuttle)
+    * AJ10 Transtar (hypergolic plume only)
     * LMAE (Apollo spacecraft)
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
