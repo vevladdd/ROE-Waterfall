@@ -58,8 +58,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * LR-89, LR-101, LR-105 (Atlas)
     * NK family (N-1)
     * RD-0105 (Luna and Vostok rockets)
-	* RD-0110 (Block I)
-	* RD-0124 (Angara)
+    * RD-0110 (Block I)
+    * RD-0124 (Angara)
     * RD-58 (Blok-D upper stage)
     * RD-107, RD-108 (R-7 family)
     * RD-170 family (Energiya, Zenit, Atlas V, Antares)
@@ -72,8 +72,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * ORM65
     * RD-200
     * RD-211 (R-12 and Kosmos-2)
-	* S2.253 (Scud)
-	* Veronique (Veronique Sounding rocket)
+    * S2.253 (Scud)
+    * Veronique (Veronique sounding rocket)
 * Realism Overhaul
   * RCS blocks from ReStock
   * RCS blocks from ReStock Plus
