@@ -47,6 +47,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
     * LR-91 (Titan) (AZ50/NTO plume only)
+	* RD-119 (Kosmos-2)
 	* RD-215 (Kosmos-3, Cyclone)
     * RD-0210, RD-0211 (Proton)
     * RD-253 (Proton)
