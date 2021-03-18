@@ -47,8 +47,10 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
     * LR-91 (Titan) (AZ50/NTO plume only)
+	* RD-215 (Kosmos-3, Cyclone)
     * RD-0210, RD-0211 (Proton)
     * RD-253 (Proton)
+	* Viking family (Ariane-1 to 4)
   * Kerolox
     * E-1
     * F-1 (Saturn V)
@@ -56,6 +58,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * H-1 family (Saturn IB)
     * LR-79 (Thor)
     * LR-89, LR-101, LR-105 (Atlas)
+	* RZ (Blue Streak, Europa)
     * NK family (N-1)
     * RD-0105 (Luna and Vostok rockets)
     * RD-0110 (Block I)
