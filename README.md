@@ -6,7 +6,7 @@ Work-in-progress Waterfall configs for Realism Overhaul mods.
 
 ## INSTALLATION INSTRUCTIONS
 
-**Please note that the latest version moved several files. Delete the `GameData/ROEngines/Waterfall` folder before updating.**
+**Please note that the latest version (as of 2021-03-20) moved several files. Delete the `GameData/ROEngines/Waterfall` folder before updating.**
 
 **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.**
 
@@ -79,11 +79,24 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * S2.253 (Scud)
     * Veronique (Veronique sounding rocket)
 * Realism Overhaul
-  * RCS blocks from ReStock
-  * RCS blocks from ReStock Plus
-  * RCS blocks from Ven's New Parts
   * 1.1/1.78 kN Thruster (white hypergolic plume only)
   * 2.2/3.6 kN Thruster (white hypergolic plume only)
+  * NERVA I (ReStock model only)
+  * Bornholio Nuclear (ReStock models only)
+    * KIWI A24
+    * KIWI B48
+    * NERVA NRX 50
+    * NERVA XE 100
+    * Pewee 100
+    * Phoebus One 50
+    * Phoebus Two 100
+    * RD-0410 NTR
+    * SNTP-PFE 100
+  * RCS quads (ReStock model only)
+* ReStock Plus
+  * RCS blocks
+* Ven's New Parts
+  * RCS blocks
 * Real Scale Sea Dragon
   * First and second stage engines
   * TVC engine
