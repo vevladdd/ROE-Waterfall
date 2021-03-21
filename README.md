@@ -34,6 +34,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * HG-3
     * LR-87-LH2, sea-level and vacuum variants
     * M-1, sea-level and vacuum variants
+    * RD-57
     * RL-10 family (various American upper stages)
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
