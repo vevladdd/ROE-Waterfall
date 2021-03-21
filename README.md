@@ -6,7 +6,7 @@ Work-in-progress Waterfall configs for Realism Overhaul mods.
 
 ## INSTALLATION INSTRUCTIONS
 
-**Please note that the latest version (as of 2021-03-20) moved several files. Delete the `GameData/ROEngines/Waterfall` folder before updating.**
+**Please note that the latest version (as of 2021-03-21) moved several files. Delete the `GameData/ROEngines/Waterfall` folder before updating.**
 
 <!-- **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.** -->
 
@@ -130,5 +130,4 @@ If you find something bad here, please open an issue or a PR. Or write in the Re
 This mod only applies templates to parts.
 
 * Thanks to Nertea, Zorg, and the rest of the [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall) team for providing plume templates and sound.
-* Thanks to damonvv for the GeminiWhoop sound.
-* The files `BDB_HTP_vernier.cfg`, `BDB_HTP_vernierVac.cfg` and `GeminiWhoop.ogg` are from the [Bluedog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau) mod. They are shipped as part of this mod without modification.
+* The files `BDB_HTP_vernier.cfg`, `BDB_HTP_vernierVac.cfg`, and `GeminiWhoop.ogg` (thanks to damonvv) are from the [Bluedog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau) mod. They are shipped as part of this mod without modification.
