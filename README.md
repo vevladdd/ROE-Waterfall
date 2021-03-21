@@ -37,6 +37,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * LR-87-LH2, sea-level and vacuum variants
     * M-1, sea-level and vacuum variants
     * RD-57
+	* RD-0146
+	* RD-0120 (Energiya)
     * RL-10 family (various American upper stages)
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
@@ -46,6 +48,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * AJ10-137 (Apollo spacecraft)
     * AJ10-190 (Space Shuttle)
     * AJ10 Transtar (hypergolic plume only)
+	* Juno 6k
+	* Juno 45k
+	* KTDU-425A (4MV and 5MV)
     * LMAE (Apollo spacecraft)
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
@@ -65,8 +70,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Merlin 1 family (Falcon 9)
     * NK family (N-1)
     * RD-0105 (Luna and Vostok rockets)
-    * RD-0110 (Block I)
+    * RD-0110 and its vernier (Block I)
     * RD-0124 (Angara)
+	* RD-120 and RD-8 (Zenit)
     * RD-58 (Blok-D upper stage)
     * RD-107, RD-108 (R-7 family)
     * RD-170 family (Energiya, Zenit, Atlas V, Antares)
