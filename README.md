@@ -60,6 +60,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * H-1 family (Saturn IB)
     * LR-79 (Thor)
     * LR-89, LR-101, LR-105 (Atlas)
+    * Merlin 1 family (Falcon 9)
     * NK family (N-1)
     * RD-0105 (Luna and Vostok rockets)
     * RD-0110 (Block I)
