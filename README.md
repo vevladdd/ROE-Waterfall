@@ -37,8 +37,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * LR-87-LH2, sea-level and vacuum variants
     * M-1, sea-level and vacuum variants
     * RD-57
-	* RD-0146
-	* RD-0120 (Energiya)
+    * RD-0146
+    * RD-0120 (Energiya)
     * RL-10 family (various American upper stages)
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
@@ -48,17 +48,24 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * AJ10-137 (Apollo spacecraft)
     * AJ10-190 (Space Shuttle)
     * AJ10 Transtar (hypergolic plume only)
-	* Juno 6k
-	* Juno 45k
-	* KTDU-425A (4MV and 5MV)
+    * Juno 6k
+    * Juno 45k
+    * KTDU-425A (4MV and 5MV)
+    * Leros 1b
+    * Leros 4
     * LMAE (Apollo spacecraft)
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
     * LR-91 (Titan) (AZ50/NTO plume only)
+    * R-4D
+    * R-40
+    * R-42
     * RD-0210, RD-0211 (Proton)
     * RD-119 (Kosmos-2)
     * RD-215 (Kosmos-3, Cyclone)
     * RD-253 (Proton)
+    * S400
+    * TD-339
     * Viking family (Ariane-1 to 4)
   * Kerolox
     * E-1
@@ -72,22 +79,27 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-0105 (Luna and Vostok rockets)
     * RD-0110 and its vernier (Block I)
     * RD-0124 (Angara)
-	* RD-120 and RD-8 (Zenit)
     * RD-58 (Blok-D upper stage)
     * RD-107, RD-108 (R-7 family)
+    * RD-120 and RD-8 (Zenit)
     * RD-170 family (Energiya, Zenit, Atlas V, Antares)
     * RZ (Blue Streak, Europa)
     * X-405 (Vanguard)
     * X-405H (Vega upper stage)
-  * Methalox
-    * BE-4 (Vulcan and New Glenn)
-    * Raptor, sea-level and vacuum variants (Starship)
   * Kerosene + Nitric Acid
     * ORM65
     * RD-200
     * RD-211 (R-12 and Kosmos-2)
     * S2.253 (Scud)
     * Veronique (Veronique sounding rocket)
+  * Methalox
+    * BE-4 (Vulcan and New Glenn)
+    * Raptor, sea-level and vacuum variants (Starship)
+  * Monopropellant
+    * MR-80 TDE
+    * MR-80B (MDE)
+    * MR-104
+    * MR-107 (0.592 kN Dual Radial Engine)
 * Realism Overhaul
   * 1.1/1.78 kN Thruster (white hypergolic plume only)
   * 2.2/3.6 kN Thruster (white hypergolic plume only)
