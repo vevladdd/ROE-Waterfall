@@ -51,21 +51,21 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Juno 6k
     * Juno 45k
     * KTDU-425A (4MV and 5MV)
-    * Leros 1b
-    * Leros 4
+    * Leros 1b (white hypergolic plume only)
+    * Leros 4 (white hypergolic plume only)
     * LMAE (Apollo spacecraft)
     * LMDE (Apollo spacecraft)
     * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
     * LR-91 (Titan) (AZ50/NTO plume only)
-    * R-4D
-    * R-40
-    * R-42
+    * R-4D (white hypergolic plume only)
+    * R-40 (white hypergolic plume only)
+    * R-42 (white hypergolic plume only)
     * RD-0210, RD-0211 (Proton)
     * RD-119 (Kosmos-2)
     * RD-215 (Kosmos-3, Cyclone)
     * RD-253 (Proton)
-    * S400
-    * TD-339
+    * S400 (white hypergolic plume only)
+    * TD-339 (white hypergolic plume only)
     * Viking family (Ariane-1 to 4)
   * Kerolox
     * E-1
