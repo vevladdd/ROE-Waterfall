@@ -2,6 +2,8 @@
 
 Work-in-progress Waterfall configs for Realism Overhaul mods.
 
+As it currently stands, Waterfall is a moving target that is still itself in heavy development. We always target the latest release of Waterfall, so **if something does not work, your first step should be to verify that you have updated ALL relevant mods**.
+
 **Support requests and bug reports should be directed here, NOT to Waterfall, Realism Overhaul, or any other mods.**
 
 ## INSTALLATION INSTRUCTIONS
@@ -10,12 +12,12 @@ Work-in-progress Waterfall configs for Realism Overhaul mods.
 
 <!-- **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.** -->
 
-**These configurations require the latest versions of RealismOverhaul (>= 13.0) and ROEngines (>= 1.7).**
-
-1. Install the latest version of [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall).
-2. Download this package: Press the green button "Code" and click on "Download ZIP".
-3. Unpack into `GameData` and *agree* to overwrite.
-4. Launch the game.
+1. **If you have not done so, update to the latest versions of RealismOverhaul (>= 13.0) and ROEngines (>= 1.7).**
+2. **Install the latest version of [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall).**
+   * ROE-Waterfall and Waterfall are two separate things. ROE-Waterfall provides configurations for Realism Overhaul engines, Waterfall provides the effects themselves. ROE-Waterfall is to Waterfall as RealPlume-Stock is to RealPlume. *You need both.*
+3. Download this package: Press the green button "Code" and click on "Download ZIP".
+4. Unpack into `GameData` and *agree* to overwrite.
+5. Launch the game.
 
 If you prefer engine lights from Engine Lighting Relit instead of Waterfall, create an empty folder named `ROWaterfallNoEngineLight` under `GameData`.
 
@@ -27,7 +29,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
 
 * ROEngines
   * Alcolox
-    * A-6 (alcolox plume only)
+    * A4
+    * A-7 (alcolox plume only)
     * RD-100 (early Soviet missiles)
     * XLR-41, XLR-43 (alcolox plume only)
   * Hydrolox
