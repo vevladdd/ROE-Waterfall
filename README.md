@@ -118,6 +118,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-0410 NTR
     * SNTP-PFE 100
   * RCS quads (ReStock model only)
+* Internal RCS
 * ReStock Plus
   * RCS blocks
 * Ven's New Parts
