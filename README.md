@@ -60,6 +60,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * A-7 (alcolox plume only)
     * RD-100 (early Soviet missiles)
     * XLR-41, XLR-43 (alcolox plume only)
+  * Ammonia + Liquid Oxygen
+    * XLR-99
   * Hydrolox
     * J-2 (Saturn V)
     * J-2X
