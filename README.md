@@ -43,7 +43,17 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * SNTP-PFE 100
   * RCS quads (ReStock model only)
 * ROCapsules
-  * Orion (CM, ESM, RCS block)
+  * Apollo
+    * Command Module
+    * RCS block
+  * Apollo (Eyes Turned Skyward)
+    * Block III+ Command Module
+    * Block III Engine
+    * Block V Engine
+  * Orion
+    * Command Module
+    * European Service Module
+    * RCS block
 * ROEngines
   * Alcolox
     * A4
