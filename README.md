@@ -27,6 +27,23 @@ The eventual goal is to merge this patchset into the relevant RO mods; this unco
 
 Note: Due to technical limitations (see #1), only one plume can be provided at the moment for engines with switchable fuel configurations (ex. hypergolic and kerolox).
 
+* Realism Overhaul
+  * 1.1/1.78 kN Thruster (white hypergolic plume only)
+  * 2.2/3.6 kN Thruster (white hypergolic plume only)
+  * NERVA I (ReStock model only)
+  * Bornholio Nuclear (ReStock models only)
+    * KIWI A24
+    * KIWI B48
+    * NERVA NRX 50
+    * NERVA XE 100
+    * Pewee 100
+    * Phoebus One 50
+    * Phoebus Two 100
+    * RD-0410 NTR
+    * SNTP-PFE 100
+  * RCS quads (ReStock model only)
+* ROCapsules
+  * Orion (CM, ESM, RCS block)
 * ROEngines
   * Alcolox
     * A4
