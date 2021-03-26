@@ -103,21 +103,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * MR-80B (MDE)
     * MR-104
     * MR-107 (0.592 kN Dual Radial Engine)
-* Realism Overhaul
-  * 1.1/1.78 kN Thruster (white hypergolic plume only)
-  * 2.2/3.6 kN Thruster (white hypergolic plume only)
-  * NERVA I (ReStock model only)
-  * Bornholio Nuclear (ReStock models only)
-    * KIWI A24
-    * KIWI B48
-    * NERVA NRX 50
-    * NERVA XE 100
-    * Pewee 100
-    * Phoebus One 50
-    * Phoebus Two 100
-    * RD-0410 NTR
-    * SNTP-PFE 100
-  * RCS quads (ReStock model only)
+* Mandatory RCS Parts Pack
 * Internal RCS
 * ReStock Plus
   * RCS blocks
