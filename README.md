@@ -41,6 +41,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Phoebus Two 100
     * RD-0410 NTR
     * SNTP-PFE 100
+  * NSTAR ion engine (ReStock model only)
   * RCS quads (ReStock model only)
 * ROCapsules
   * Apollo
