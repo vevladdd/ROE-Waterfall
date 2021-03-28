@@ -76,6 +76,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
   * Hypergolic
+    * Aerobee 
     * Agena family (Agena upper stage)
     * Early and Mid-period AJ10 (Able and Delta upper stages)
     * AJ10-137 (Apollo spacecraft)
@@ -84,6 +85,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Juno 6k
     * Juno 45k
     * KTDU-425A (4MV and 5MV)
+	* KTDU-35 (Soyuz)
     * Leros 1b (white hypergolic plume only)
     * Leros 4 (white hypergolic plume only)
     * LMAE (Apollo spacecraft)
@@ -98,6 +100,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-215 (Kosmos-3, Cyclone)
     * RD-253 (Proton)
     * S400 (white hypergolic plume only)
+	* S5.92 (Fregat)
+	* S5.98M (Briz)
+	* S-155 (E-50)
     * TD-339 (white hypergolic plume only)
     * Viking family (Ariane-1 to 4)
   * Kerolox
