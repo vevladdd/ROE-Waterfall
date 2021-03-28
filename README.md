@@ -133,6 +133,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * MR-80B (MDE)
     * MR-104
     * MR-107 (0.592 kN Dual Radial Engine)
+  * Nuclear Thermal Rocket
+    * Bimodal NTR
 * Mandatory RCS Parts Pack
 * Internal RCS
 * ReStock Plus
