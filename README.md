@@ -60,9 +60,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * A4
     * A-7 (alcolox plume only)
     * RD-100 (early Soviet missiles)
+    * XLR-11
+    * XLR-25
     * XLR-41, XLR-43 (alcolox plume only)
-	* XLR-11
-	* XLR-25
   * Ammonialox
     * XLR-99
   * Hydrolox
@@ -77,7 +77,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RL-10 family (various American upper stages)
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
-	* RZ.20 
+    * RZ.20
   * Hypergolic
     * Aerobee
     * Agena family (Agena upper stage)
@@ -124,18 +124,19 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-107, RD-108 (R-7 family)
     * RD-120 and RD-8 (Zenit)
     * RD-170 family (Energiya, Zenit, Atlas V, Antares)
+    * Rutherford, sea-level and vacuum variants (Electron)
     * RZ (Blue Streak, Europa)
     * X-405 (Vanguard)
     * X-405H (Vega upper stage)
+  * Kerosene + HTP
+    * Gamma family
+    * Stentor
   * Kerosene + Nitric Acid
     * ORM65
     * RD-200
     * RD-211 (R-12 and Kosmos-2)
     * S2.253 (Scud)
     * Veronique (Veronique sounding rocket)
-  * Kerosene + HTP
-    * Gamma family 
-	* Stentor 
   * Methalox
     * BE-4 (Vulcan and New Glenn)
     * Raptor, sea-level and vacuum variants (Starship)
