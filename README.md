@@ -107,6 +107,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * S5.92 (Fregat)
     * S5.98M (Briz)
     * S-155 (E-50)
+    * SuperDraco, single and twin variants (Dragon spacecraft)
     * TD-339 (white hypergolic plume only)
     * Viking family (Ariane-1 to 4)
   * Kerolox
@@ -166,3 +167,5 @@ This mod only applies templates to parts.
 
 * Thanks to Nertea, Zorg, and the rest of the [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall) team for providing plume templates and sound.
 * The files `BDB_HTP_vernier.cfg`, `BDB_HTP_vernierVac.cfg`, `BDB_nuclear_PBR_vac.cfg`, and `GeminiWhoop.ogg` (thanks to damonvv) are from the [Bluedog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau) mod. They are shipped as part of this mod without modification.
+* The various `rowaterfall-glow-` templates are modified from the `waterfall-nozzle-glow-*-1` templates shipped with Waterfall, originally made by Zorg.
+* The `rowaterfall-hypergolic-superdraco` template is modified from the `waterfall-alcolox-lower-1` template shipped with Waterfall, originally made by Zorg.
