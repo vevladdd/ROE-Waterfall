@@ -20,7 +20,7 @@
         position = 0,0,0
         rotation = 0,0,0
         scale = 1,1,1
-        glow = white
+        glow = _white
 
         // Geometry and thrust transform will inherit from main plume unless overridden.
         ExtraTemplate
