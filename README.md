@@ -130,6 +130,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-211 (R-12 and Kosmos-2)
     * S2.253 (Scud)
     * Veronique (Veronique sounding rocket)
+  * Kerosene + HTP
+    * Gamma family 
+	* Stentor 
   * Methalox
     * BE-4 (Vulcan and New Glenn)
     * Raptor, sea-level and vacuum variants (Starship)
