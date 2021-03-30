@@ -61,6 +61,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * A-7 (alcolox plume only)
     * RD-100 (early Soviet missiles)
     * XLR-41, XLR-43 (alcolox plume only)
+	* XLR-11
+	* XLR-25
   * Ammonialox
     * XLR-99
   * Hydrolox
@@ -75,6 +77,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RL-10 family (various American upper stages)
     * RS-25 (Space Shuttle)
     * RS-68 (Delta IV)
+	* RZ.20 
   * Hypergolic
     * Aerobee
     * Agena family (Agena upper stage)
