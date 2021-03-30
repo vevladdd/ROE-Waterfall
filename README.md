@@ -66,6 +66,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * Ammonialox
     * XLR-99
   * Hydrolox
+    * BE-3 (New Shepard)
     * J-2 (Saturn V)
     * J-2X
     * HG-3
