@@ -1,6 +1,6 @@
 // Minimal configuration: This will place the plume on `thrustTransform` with its default size
 // and position.
-@PART[PART_NAME]:FOR[ROWaterfall]:NEEDS[Waterfall]
+@PART[PART_NAME]:BEFORE[ROWaterfall]:NEEDS[Waterfall]
 {
     ROWaterfall
     {
@@ -10,7 +10,7 @@
 }
 
 // Specify geometry, thrust transform, nozzle glow, or additional templates:
-@PART[PART_NAME]:FOR[ROWaterfall]:NEEDS[Waterfall]
+@PART[PART_NAME]:BEFORE[ROWaterfall]:NEEDS[Waterfall]
 {
     ROWaterfall
     {
