@@ -47,19 +47,35 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * Apollo
     * Command Module
     * RCS block
+  * Apollo LEM
+    * Ascent Module (LMAE + RCS)
+    * LMDE
   * Apollo (Eyes Turned Skyward)
     * Block III+ Command Module
     * Block III Engine
     * Block V Engine
+  * CST-100 Starliner
+    * Command Module
+    * Service Module
+    * RS-88
+  * Dynasoar
+    * Aft Bay (RCS only)
+    * Fuselage
+    * Wings
   * Gemini (BDB models)
     * Equipment Module
     * Orbital Attitude and Maneuvering System
     * Reentry Control System
     * Retro Module
+  * Mercury
+    * Command Module
+    * Landing and Control Module
   * Orion
     * Command Module
     * European Service Module
     * RCS block
+  * Vostok
+    * Support Module
 * ROEngines
   * Alcolox
     * A4
