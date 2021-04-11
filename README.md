@@ -338,4 +338,4 @@ This mod only applies templates to parts.
 * The files `BDB_HTP_vernier.cfg`, `BDB_HTP_vernierVac.cfg`, `BDB_nuclear_PBR_vac.cfg`, `BDB_nuclear_PBR_sustainer_LOXaug`, and `GeminiWhoop.ogg` (thanks to damonvv) are from the [Bluedog Design Bureau](https://github.com/CobaltWolf/Bluedog-Design-Bureau) mod. They are shipped as part of this mod without modification.
 * The various `rowaterfall-glow-` templates are modified from the `waterfall-nozzle-glow-*-1` templates shipped with Waterfall, originally made by Zorg.
 * The `rowaterfall-hypergolic-superdraco` template is modified from the `waterfall-alcolox-lower-1` template shipped with Waterfall, originally made by Zorg.
-* The `rowaterfall-hy` template is modified from the `waterfall-alcolox-lower-1` template shipped with Waterfall, originally made by Zorg.
+* The `rowaterfall-hydrolox-ssme` template is modified from the `waterfall-hydrolox-lower-4` template shipped with Waterfall, originally made by Zorg.
