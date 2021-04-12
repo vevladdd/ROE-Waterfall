@@ -8,7 +8,7 @@ As it currently stands, Waterfall is a moving target that is still itself in hea
 
 ## INSTALLATION INSTRUCTIONS
 
-**Please note that the latest version (as of 2021-03-31) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
+**Please note that the latest version (as of 2021-04-12) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
 
 <!-- **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.** -->
 
@@ -28,8 +28,8 @@ The eventual goal is to merge this patchset into the relevant RO mods; this unco
 Note: Due to technical limitations (see #1), only one plume can be provided at the moment for engines with switchable fuel configurations (ex. hypergolic and kerolox).
 
 * Realism Overhaul
-  * 1.1/1.78 kN Thruster (white hypergolic plume only)
-  * 2.2/3.6 kN Thruster (white hypergolic plume only)
+  * 1.1/1.78 kN Thruster
+  * 2.2/3.6 kN Thruster
   * NERVA I (ReStock model only)
   * Bornholio Nuclear (ReStock models only)
     * KIWI A24
@@ -111,25 +111,24 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Juno 45k
     * KTDU-35 (Soyuz)
     * KTDU-425A (4MV and 5MV)
-    * Leros 1b (white hypergolic plume only)
-    * Leros 4 (white hypergolic plume only)
+    * Leros 1b
+    * Leros 4
     * LMAE (Apollo spacecraft)
     * LMDE (Apollo spacecraft)
-    * LR-87, LR-87-AJ-11 (Titan) (AZ50/NTO plume only)
+    * LR-87, LR-87-AJ-11 (Titan)
     * LR-91 (Titan) (AZ50/NTO plume only)
-    * R-4D (white hypergolic plume only)
-    * R-40 (white hypergolic plume only)
-    * R-42 (white hypergolic plume only)
+    * R-4D
+    * R-40
+    * R-42
     * RD-0210, RD-0211 (Proton)
     * RD-119 (Kosmos-2)
     * RD-215 (Kosmos-3, Cyclone)
     * RD-253 (Proton)
-    * S400 (white hypergolic plume only)
     * S5.92 (Fregat)
     * S5.98M (Briz)
     * S-155 (E-50)
     * SuperDraco, single and twin variants (Dragon spacecraft)
-    * TD-339 (white hypergolic plume only)
+    * TD-339
     * Viking family (Ariane-1 to 4)
   * Kerolox
     * E-1
@@ -166,10 +165,12 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * Monopropellant
     * MR-80 TDE
     * MR-80B (MDE)
-    * MR-104
-    * MR-107 (0.592 kN Dual Radial Engine)
   * Nuclear Thermal Rocket
     * Bimodal NTR
+  * Generic Thrusters
+    * 0.4 kN Engine (S400)
+    * 0.44 kN Engine (MR-104)
+    * 0.592 kN Dual Radial Engine (MR-107)
 * Mandatory RCS Parts Pack
 * Internal RCS
 * ReStock Plus
