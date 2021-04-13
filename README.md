@@ -79,7 +79,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
 * ROEngines
   * Alcolox
     * A4
-    * A-7 (alcolox plume only)
+    * A-7
     * RD-100 (early Soviet missiles)
     * XLR-11
     * XLR-25
