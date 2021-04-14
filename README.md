@@ -8,7 +8,7 @@ As it currently stands, Waterfall is a moving target that is still itself in hea
 
 ## INSTALLATION INSTRUCTIONS
 
-**Please note that the latest version (as of 2021-04-12) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
+**Please note that the latest version (as of 2021-04-14) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
 
 <!-- **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.** -->
 
@@ -83,7 +83,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * RD-100 (early Soviet missiles)
     * XLR-11
     * XLR-25
-    * XLR-41, XLR-43 (alcolox plume only)
+    * XLR-41
+    * XLR-43
   * Ammonialox
     * XLR-99
   * Hydrolox
@@ -103,6 +104,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
   * Hypergolic
     * Aerobee
     * Agena family (Agena upper stage)
+    * Agena Service Propulsion System
+    * Agena Equipment Rack (RCS)
     * Early and Mid-period AJ10 (Able and Delta upper stages)
     * AJ10 Advanced
     * AJ10-137 (Apollo spacecraft)
