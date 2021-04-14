@@ -104,9 +104,10 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * Aerobee
     * Agena family (Agena upper stage)
     * Early and Mid-period AJ10 (Able and Delta upper stages)
+    * AJ10 Advanced
     * AJ10-137 (Apollo spacecraft)
     * AJ10-190 (Space Shuttle)
-    * AJ10 Transtar (hypergolic plume only)
+    * AJ10 Transtar
     * Juno 6k
     * Juno 45k
     * KTDU-35 (Soyuz)
