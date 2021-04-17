@@ -179,6 +179,9 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
 * Internal RCS
 * ReStock Plus
   * RCS blocks
+* Shuttle Orbiter Construction Kit
+  * Forward Fuselage (RCS)
+  * Aft Fuselage (RCS)
 * SXT
   * LEM Descent Module
 * Ven's New Parts
