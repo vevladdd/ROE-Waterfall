@@ -213,7 +213,7 @@ The minimal configuration for adding a Waterfall plume and sound effect is as fo
 
 **Note that the patch should be applied in the `:BEFORE[ROWaterfall]` pass.**
 
-`ROWaterfall` will transform this patch into a `Module[ModuleWaterfallFX]` node and an `EFFECTS` node, removing existing effects (stock, RealPlume) as necessary. However, it is still possible to use RealPlume (or stock) effects in conjunction with `ROWaterfall` – see below.
+`ROWaterfall` will produce a `Module[ModuleWaterfallFX]` node and an `EFFECTS` node from this patch, removing existing effects (stock, RealPlume) as necessary. However, it is still possible to use RealPlume (or stock) effects in conjunction with `ROWaterfall` – see below.
 
 **Only one `ROWaterfall` node will be processed for a single part.** If more complex plumes are needed, extra `ModuleWaterfallFX`es can be added manually as usual; they can coexists with `ROWaterfall`.
 
@@ -221,43 +221,68 @@ The minimal configuration for adding a Waterfall plume and sound effect is as fo
 
 An `ROWaterfall` node can contain the following keys and nodes:
 
-| <div style='min-width: 9em;'>Key or node name</div> | Required | <div style='min-width: 6em;'>Default value</div> | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| :-------------------------------------------------- | :------- | :----------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `template`                                          | Yes      | N/A                                              | The desired Waterfall template name. Default Waterfall templates can be found in `Waterfall/Templates`, and RO provides supplemental templates under `RealismOverhaul/Waterfall_Configs/_Templates`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `audio`                                             | No       | None                                             | The audio template to use, a selection of which are available in `RealismOverhaul/Waterfall_Configs/_Audio`. <br/> *While not strictly required, omitting this key will result in a silent engine.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `moduleID`                                          | No       | Part's `name`                                    | Override the `moduleID` of the generated `ModuleWaterfallFX`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| `engineID`                                          | No       | `basicEngine`                                    | Set the `engineID` used for the throttle controller, if one is present.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| `transform`                                         | No       | `thrustTransform`                                | Set the value of `overrideParentTransform` on the main template. If the template is an RCS template, then the `thrusterTransformName` key of the RCS controller will also be set to this value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| `position`                                          | No       | `0,0,0`                                          | Set the position of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `rotation`                                          | No       | `0,0,0`                                          | Set the rotation of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `scale`                                             | No       | `1,1,1`                                          | Set the scale of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `glow`                                              | No       | None                                             | Add a nozzle glow that appears at the same position and has the same size as the base of the main template. This can be used to cover up the prominent "holes" in the plumes of engines that lack emissive textures. <br/> The value can be of two forms: `_<color>`, referencing one of the `waterfall-nozzle-glow-<color>-1` templates; or `ro-<name>`, referencing one of the `rowaterfall-glow-<name>` templates. *Setting this key to any other value will result in undefined behavior*. <br/> By default, the length of the generated glow will be twice the average of the x and y `scale`s of the main template. <br/> Glows that require more complicated configuration (ex. custom positioning) should be added manually using an `ExtraTemplate` node. |
-| `glowStretch`                                       | No       | `1`                                              | This key applies a multiplier to the length of the generated glow. It is useful for very short nozzles, where the default length might result in unsightly clipping.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `ExtraTemplate {}`                                  | No       | None                                             | This node can be used to add extra templates (ex. for verniers) to the generated `ModuleWaterfallFX`. <br/> The `template` key is required. The `transform`, `position`, `rotation`, and `scale` keys are optional and will inherit from the parent `ROWaterfall` node if not specified. <br/> Multiple `ExtraTemplate` nodes may be used in an `ROWaterfall` node.                                                                                                                                                                                                                                                                                                                                                                                                |
+| <div style='min-width: 9em;'>Key or node name</div> | Required | <div style='min-width: 6em;'>Default value</div> | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| :-------------------------------------------------- | :------- | :----------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `autoConfig`                                        | No       | None                                             | Apply a predefined set of switchable plumes. This key will automatically configure `template`, `audio`, `MainPlumeTemplate {}`, and `ModuleEngineConfigs` integration. <br> The `position`, `rotation`, and `scale` values should be configured against the "default" variant, which can be viewed `Waterfall_Configs/_Processor/15_auto-config.cfg`. <br> Currently, two values are possible: `rcs` (default variant `rowaterfall-rcs-cold-gas-1`) and `genericThruster` (default variant `waterfall-hypergolic-white-upper-1`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `template`                                          | Yes      | N/A                                              | The desired Waterfall template name. Default Waterfall templates can be found in `Waterfall/Templates`, and RO provides supplemental templates under `Waterfall_Configs/_Templates`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `audio`                                             | No       | None                                             | The audio template to use, a selection of which are available in `Waterfall_Configs/_Audio`. <br/> *While not strictly required, omitting this key will result in a silent engine.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `moduleID`                                          | No       | Part's `name`                                    | Override the `moduleID` of the generated `ModuleWaterfallFX`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `engineID`                                          | No       | `basicEngine`                                    | Set the `engineID` used for the throttle controller, if one is present.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `transform`                                         | No       | `thrustTransform`                                | Set the value of `overrideParentTransform` on the main template. If the template is an RCS template, then the `thrusterTransformName` key of the RCS controller will also be set to this value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `position`                                          | No       | `0,0,0`                                          | Set the position of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `rotation`                                          | No       | `0,0,0`                                          | Set the rotation of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `scale`                                             | No       | `1,1,1`                                          | Set the scale of the main template.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `glow`                                              | No       | None                                             | Add a nozzle glow that appears at the same position and has the same size as the base of the main template. This can be used to cover up the prominent "holes" in the plumes of engines that lack emissive textures. <br/> The value can be of two forms: `_<color>`, referencing one of the `waterfall-nozzle-glow-<color>-1` templates; or `ro-<name>`, referencing one of the `rowaterfall-glow-<name>` templates. *Setting this key to any other value will result in undefined behavior*. <br/> By default, the length of the generated glow will be twice the average of the x and y `scale`s of the main template. <br/> Glows that require more complicated configuration (ex. custom positioning) should be added manually using an `ExtraTemplate` node.                                                                                                                                                                                                                                          |
+| `glowStretch`                                       | No       | `1`                                              | This key applies a multiplier to the length of the generated glow. It is useful for very short nozzles, where the default length might result in unsightly clipping.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `ExtraTemplate {}`                                  | No       | None                                             | This node can be used to add extra templates (ex. for verniers) to the generated `ModuleWaterfallFX`. <br/> The `template` key is required. The `transform`, `position`, `rotation`, and `scale` keys are optional and will inherit from the parent configuration if not specified. <br/> Multiple `ExtraTemplate` nodes may be used.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `MainPlumeVariant {}`                               | No       | None                                             | Define a plume variant that can be enabled based on fuel type. This requires B9PartSwitch; thus the node should be declared with `:NEEDS[B9PartSwitch]`. If variants are present, the template declared in the parent `ROWaterfall` node is considered the "default variant". <br> The `name` and `template` keys are required. The `position`, `rotation`, and `scale` keys are optional and will inherit from the default variant. The optional `glowRecolor` key (taking the same values as `glow`) can be used to replace the glow color of the default variant. <br> Note that `ExtraTemplate`s are *not* directly switchable; this must be done [manually](#modifying-effects-generated-by-rowaterfall). <br> Multiple `MainPlumeVariant` nodes may be used, but they must have distinct `name`s. <br> Each `ModuleEngineConfigs` `CONFIG` must specify a plume variant `name` using the `b9psSubtypeName` key. If a config does not set a subtype, `ROWaterfall` will set it to the default variant. |
+| `defaultMainPlumeVariantName`                       | No       | Automatically generated from `template`          | Override the name of the default plume variant, which will otherwise be a shortened version of the template name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 Here is an example using some of the optional configuration options:
 
 ```text
-@PART[ROE-RD107]:BEFORE[ROWaterfall]:NEEDS[Waterfall]
+@PART[ROE-LR87]:BEFORE[ROWaterfall]:NEEDS[Waterfall]
 {
     ROWaterfall
     {
-        template = waterfall-kerolox-lower-1
-        audio = pump-fed-heavy-1
-        transform = RD-107A-MainFXTransform
-        position = 0,0,0.48
-        rotation = 0,0,0
-        scale = 1.3,1.3,1.3
-        glow = _yellow  // Expanding to `waterfall-nozzle-glow-yellow-1`.
+        template = waterfall-hypergolic-aerozine50-lower-1
+        audio = pump-fed-lr87-1
+        position = 0,0,0.69
+        rotation = 0, 0, 0
+        scale = 0.85, 0.85, 0.85
+        glow = _white  // Expanding to `waterfall-nozzle-glow-white-1`.
 
         ExtraTemplate
         {
-            template = waterfall-kerolox-vernier-2
-            transform = RD-107A-VernierFXTransform
-            position = 0,0,0.29
-            rotation = 0,0,0
-            scale = 2.5,2.5,2
+            template = waterfall-hypergolic-vernier-upper-2
+            transform = newThrustTransform
+            position = 0,0,0.011
+            rotation = 0, 0, 0
+            scale = 0.9, 0.9, 0.8
         }
+
+        MainPlumeVariant:NEEDS[B9PartSwitch]
+        {
+            name = kerolox
+            template = waterfall-kerolox-lower-4
+            position = 0,0,0.69
+            rotation = 0, 0, 0
+            scale = 2.05, 2.05, 2.05
+            glowRecolor = _yellow
+        }
+    }
+
+    @MODULE[ModuleEngineConfigs]:NEEDS[B9PartSwitch]
+    {
+        @CONFIG[LR87-AJ-3]
+        {
+            %b9psSubtypeName = kerolox
+        }
+        @CONFIG[LR87-AJ-9-Kero]
+        {
+            %b9psSubtypeName = kerolox
+        }
+        // `ROWaterfall` will set all other configs to use the default aerozine50 plume.
     }
 }
 ```
@@ -266,12 +291,19 @@ Here is an example using some of the optional configuration options:
 
 In addition to the templates provided by Waterfall, `ROWaterfall` also ships a number of supplemental templates.
 
-#### The `rowaterfall-glow-` family
+#### `rowaterfall-cold-gas-1`
+
+(Unrealistic-looking) template modified from `waterfall-rcs-jet-1` for cold gas generic thrusters.
+
+IMAGE: TODO
+
+#### `rowaterfall-glow-` family
 
 These effects are recolors of the glows shipped with Waterfall.
 
 Currently provided colors:
 
+* `cold-gas`: Dim white glow.
 * `hydrolox-blue`: Less brightly cyan blue glow for upper-stage hydrolox engines.
 * `hydrolox-red-blue`: Transitions from red at sea-level to blue in vacuum, for sea-level hydrolox plumes.
 * `hypergolic-az50`: Yellow-orangish, for use specifically with aerozine50-NTO plumes.
@@ -279,16 +311,47 @@ Currently provided colors:
 * `methalox-blue`
 * `methalox-purple`
 * `ntr`
+* `srm`: Bright yellow-white.
 
 ![glow gallery](https://i.imgur.com/Qxu5qon.png)
 
 From left to right: `hydrolox-blue`, `hydrolox-red-blue` at sea level, `hydrolox-red-blue` in vacuum, `hypergolic-az50`, `hypergolic-white`, `methalox-blue`, `methalox-purple`, `ntr`.
+
+#### `rowaterfall-hydrolox-ssme`
+
+Another take on an authentic SSME plume.
+
+IMAGE: TODO
 
 #### `rowaterfall-hypergolic-superdraco`
 
 Orange hypergolic plume with prominent shock diamonds, inspired by SpaceX SuperDraco thrusters.
 
 ![SuperDraco plume](https://i.imgur.com/qoL9MvI.jpeg)
+
+#### `rowaterfall-hypergolic-udmh-pentaborane-lower-1`
+
+Courtesy Spaceman Spiff.
+
+IMAGE: TODO
+
+#### `rowaterfall-monopropellant-hydrazine-1`
+
+Modified from `waterfall-hydrazine-monopropellant-upper-1` to be slightly less RCS-like and oriented in the correct direction.
+
+IMAGE: TODO
+
+#### `rowaterfall-rcs-*` family
+
+A pack of recolored RCS plumes for different fuel types.
+
+IMAGE: TODO
+
+#### `rowaterfall-srm-vac-1`
+
+A solid kick stage template inspired by vacuum chamber testing images of the Castor 30 motor.
+
+IMAGE: TODO
 
 #### Templates from Bluedog Design Bureau
 
@@ -331,6 +394,33 @@ Stock (including audio) effects can be added in `:AFTER[ROWaterfall]` *as long a
 **Warning:** This is inherently fragile; do so at your own risk.
 
 Modifications to effects (`ModuleWaterfallFX` or `EFFECTS`) generated by `ROWaterfall` can be done in `:AFTER[zROWaterfall_99_Finalize]` or a later pass. Patches *should not* be added in passes between `zROWaterfall_00` and `zROWaterfall_99`. These are used internally by `ROWaterfall` and their behavior could change at any time.
+
+The below example modifies an `ExtraTemplate` for the `kerolox` plume variant:
+
+```text
+@PART[ROE-LR87]:AFTER[zROWaterfall_99_Finalize]:NEEDS[Waterfall,B9PartSwitch]
+{
+    @MODULE[ModuleB9PartSwitch]:HAS[#moduleID[rowaterfallMainPlumeSwitch]]
+    {
+        @SUBTYPE[kerolox]
+        {
+            @MODULE
+            {
+                @DATA
+                {
+                    @TEMPLATE:HAS[#templateName[waterfall-hypergolic-vernier-upper-2]]
+                    {
+                        @templateName = waterfall-kerolox-vernier-2
+                        @position = 0,0,0
+                        @rotation = 0, 0, 0
+                        @scale = 1.85, 1.85, 1.5
+                    }
+                }
+            }
+        }
+    }
+}
+```
 
 ### Adding templates to `ROWaterfall`
 
