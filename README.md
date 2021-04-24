@@ -311,6 +311,7 @@ Currently provided colors:
 * `methalox-blue`
 * `methalox-purple`
 * `ntr`
+* `pentaborane`: Fantastically toxic.
 * `srm`: Bright yellow-white.
 
 ![glow gallery](https://i.imgur.com/Qxu5qon.png)
