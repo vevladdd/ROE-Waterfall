@@ -175,6 +175,10 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * 0.4 kN Engine (S400)
     * 0.44 kN Engine (MR-104)
     * 0.592 kN Dual Radial Engine (MR-107)
+  * Solid
+    * Castor 30 and 30XL
+	* GCRC
+	* Altair X-248, 258 and FW-4S
 * Mandatory RCS Parts Pack
 * Internal RCS
 * ReStock Plus
