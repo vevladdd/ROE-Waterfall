@@ -180,6 +180,8 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
 	* GCRC
 	* Altair X-248, 258 and FW-4S
 * Mandatory RCS Parts Pack
+* ATK Propulsion Pack
+  * Star SRM family
 * Internal RCS
 * ReStock Plus
   * RCS blocks
