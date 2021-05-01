@@ -352,7 +352,9 @@ IMAGE: TODO
 
 A pack of recolored RCS plumes for different fuel types.
 
-IMAGE: TODO
+![rcs plumes](https://i.imgur.com/Kk8b6dt.png)
+
+From left to right: `hypergolic-2` (Shuttle-inspired), `hypergolic-1`, `hydrazine-1`, `cold-gas-1`.
 
 #### `rowaterfall-srm-vac-1`
 
