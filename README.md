@@ -301,7 +301,7 @@ The below configuration gives the LR-87 engine a kerolox plume variant, activate
     ROWaterfall
     {
         template = waterfall-hypergolic-aerozine50-lower-1
-        audio = pump-fed-lr87-1
+        audio = pump-fed-lr87
         position = 0,0,0.69
         rotation = 0, 0, 0
         scale = 0.85, 0.85, 0.85
@@ -438,11 +438,11 @@ The series of `pump-fed` effects are increasingly crackly, based on sound effect
 
 There are also the following specialized effects for use:
 
-* `pump-fed-f1-1`, which is extra crackly and energetic.
-* `pump-fed-gamma-1`
-* `pump-fed-lr87-1`, with the real "whoop" startup sound.
-* `pump-fed-raptor-1`, with real sound effects from SpaceX test footage.
-* `pump-fed-stentor-1`
+* `pump-fed-f1`, which is extra crackly and energetic.
+* `pump-fed-gamma`
+* `pump-fed-lr87`, with the real "whoop" startup sound.
+* `pump-fed-raptor`, with real sound effects from SpaceX test footage.
+* `pump-fed-stentor`
 
 ### Using RealPlume or stock effects in conjunction with Waterfall
 
@@ -488,6 +488,8 @@ The below example modifies an `ExtraTemplate` for the `kerolox` plume variant:
 ### Adding templates to ROWaterfall
 
 By convention, templates provided by ROWaterfall should have names beginning with `rowaterfall`.
+
+Templates should be numbered starting from 1, with the exception of "specialty" templates. There should only be one canonical version of each "specialty" template (ex. the SSME plume). Art changes should be made to the existing version in a backwards-compatible way (ex. not changing the "base size" of the plume), such that the interpretation stays consistent across all parts using that template.
 
 All nozzle glows should have the same default position and size (that is, the visual size and position when `position`, `rotation`, and `scale` are all their default values) as the glows shipped with Waterfall. This is required for glow rescaling to work.
 
