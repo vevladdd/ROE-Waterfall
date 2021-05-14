@@ -399,6 +399,10 @@ Modified from `waterfall-hydrazine-monopropellant-upper-1` to be slightly less R
 
 IMAGE: TODO
 
+#### `rowaterfall-ntr-1`
+
+Modified from `BDB_nuclear_PBR_vac` to be slightly more fanned-out and easier to place.
+
 #### `rowaterfall-rcs-*` family
 
 A pack of recolored RCS plumes for different fuel types.
@@ -418,7 +422,6 @@ IMAGE: TODO
 * `BDB_HTP_vernier`
 * `BDB_HTP_vernierVac`
 * `BDB_nuclear_PBR_sustainer_LOXaug`
-* `BDB_nuclear_PBR_vac`
 
 ### Audio Templates
 
