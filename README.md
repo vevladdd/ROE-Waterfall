@@ -16,7 +16,8 @@ As it currently stands, Waterfall is a moving target that is still itself in hea
 2. **Install the latest version of [Waterfall](https://github.com/post-kerbin-mining-corporation/Waterfall).**
    * ROE-Waterfall and Waterfall are two separate things. ROE-Waterfall provides configurations for Realism Overhaul engines, Waterfall provides the effects themselves. ROE-Waterfall is to Waterfall as RealPlume-Stock is to RealPlume. *You need both.*
 3. Download this package: Press the green button "Code" and click on "Download ZIP".
-4. Unpack into `GameData` and *agree* to overwrite.
+4. Unpack the `RealismOverhaul`, `ROEngines`, and `ROCapsules` folders into `GameData` and *agree* to overwrite.
+   1. The `Extras` folder, as the name indicates, is optional. Don't use it unless you know exactly what you need from it.
 5. Launch the game.
 
 If you prefer engine lights from Engine Lighting Relit instead of Waterfall, create an empty folder named `ROWaterfallNoEngineLight` under `GameData`.
