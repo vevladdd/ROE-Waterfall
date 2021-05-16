@@ -184,6 +184,7 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
 * Mandatory RCS Parts Pack
 * ATK Propulsion Pack
   * Star SRM family
+* Coatl Aerospace
 * Internal RCS
 * ReStock Plus
   * RCS blocks
