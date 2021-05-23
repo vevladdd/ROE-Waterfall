@@ -179,13 +179,13 @@ Note: Due to technical limitations (see #1), only one plume can be provided at t
     * 0.592 kN Dual Radial Engine (MR-107)
   * Solid
     * Castor 30 and 30XL
-  * GCRC
-  * Altair X-248, 258 and FW-4S
-* Mandatory RCS Parts Pack
+    * GCRC
+    * Altair X-248, 258 and FW-4S
 * ATK Propulsion Pack
   * Star SRM family
 * Coatl Aerospace
 * Internal RCS
+* Mandatory RCS Parts Pack
 * ReStock Plus
   * RCS blocks
 * Shuttle Orbiter Construction Kit
