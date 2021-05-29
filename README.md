@@ -1,28 +1,8 @@
-# Waterfall configs for Realism Overhaul mods (WIP)
+# ROE-Waterfall
 
-Work-in-progress Waterfall configs for Realism Overhaul mods.
+**This is a development repo and should not be used unless you know what you're doing.**
 
-As it currently stands, Waterfall is a moving target that is still itself in heavy development. We always target the latest release of Waterfall, so **if something does not work, your first step should be to verify that you have updated ALL relevant mods**.
-
-**Support requests and bug reports should be directed here, NOT to Waterfall, Realism Overhaul, or any other mods.**
-
-## INSTALLATION INSTRUCTIONS
-
-**Please note that the latest version (as of 2021-04-16) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
-
-<!-- **These configurations are based on the git versions of Realism Overhaul (at least [`295cdb8`](https://github.com/KSP-RO/RealismOverhaul/commit/295cdb89d03d0fc0276e4b07f167f835be3cf206)) and ROEngines (at least [`03e06e2`](https://github.com/KSP-RO/ROEngines/commit/03e06e29ecfa751fc835ccdff10d483aee4f51a7)). Using the release (i.e., CKAN) versions of these mods will break certain plumes.** -->
-
-1. **If you have not done so, update to the latest *release* versions of RealismOverhaul (>= 13.0) and ROEngines (>= 1.7).**
-2. **Install the latest version of Waterfall Core, either from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*).**
-   * ROE-Waterfall and Waterfall Core are two separate things. ROE-Waterfall provides configurations for Realism Overhaul engines, Waterfall Core provides the effects themselves. ROE-Waterfall is to Waterfall Core as RealPlume-Stock is to RealPlume. *You need both.*
-3. Download this package: Press the green button "Code" and click on "Download ZIP".
-4. Copy the `RealismOverhaul`, `ROEngines`, and `ROCapsules` folders from the zip file into `GameData` and *agree* to overwrite.
-   1. The `Extras` folder, as the name indicates, is optional. Don't use it unless you know exactly what you need from it.
-5. Launch the game.
-
-If you prefer engine lights from Engine Lighting Relit instead of Waterfall, create an empty folder named `ROWaterfallNoEngineLight` under `GameData`.
-
-The eventual goal is to merge this patchset into the relevant RO mods; this unconventional installation process is only temporary.
+Waterfall support is now provided by *master* RO, ROEngines, and ROCapsules. Just get the latest release of Waterfall Core from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*) to enable it.
 
 ## Currently Configured Parts
 
