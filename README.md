@@ -2,7 +2,7 @@
 
 **This is a development repo and should not be used unless you know what you're doing.**
 
-Waterfall support is now provided by *master* RealismOverhaul, ROEngines, and ROCapsules. Just get the latest release of Waterfall Core from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*) to enable it.
+Waterfall support is now provided by *master* RealismOverhaul, ROEngines, and ROCapsules. To use Waterfall plumes, update to the latest masters of these mods and install Waterfall Core (version 0.6.3 is required) from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*).
 
 If you do want to use the development version, follow the instructions below:
 
