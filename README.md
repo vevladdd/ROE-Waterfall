@@ -2,7 +2,24 @@
 
 **This is a development repo and should not be used unless you know what you're doing.**
 
-Waterfall support is now provided by *master* RO, ROEngines, and ROCapsules. Just get the latest release of Waterfall Core from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*) to enable it.
+Waterfall support is now provided by *master* RealismOverhaul, ROEngines, and ROCapsules. Just get the latest release of Waterfall Core from CKAN or the [forum page](https://forum.kerbalspaceprogram.com/index.php?/topic/196309-*) to enable it.
+
+If you do want to use the development version, follow the instructions below:
+
+<details>
+<summary>Click to show manual installation instructions</summary>
+
+**Please note that the latest version (as of 2021-04-16) moved several files. Delete the `GameData/ROEngines/Waterfall` and `GameData/RealismOverhaul/Waterfall_Configs` folders before updating.**
+
+1. **If you have not done so, update to the latest *release* versions of RealismOverhaul (>= 13.0) and ROEngines (>= 1.7).**
+2. **Install the latest version of Waterfall Core.**
+   * ROE-Waterfall and Waterfall Core are two separate things. ROE-Waterfall provides configurations for Realism Overhaul engines, Waterfall Core provides the effects themselves. ROE-Waterfall is to Waterfall Core as RealPlume-Stock is to RealPlume. *You need both.*
+3. Download this package: Press the green button "Code" and click on "Download ZIP".
+4. Copy the `RealismOverhaul`, `ROEngines`, and `ROCapsules` folders from the zip file into `GameData` and *agree* to overwrite.
+   1. The `Extras` folder, as the name indicates, is optional. Don't use it unless you know exactly what you need from it.
+5. Launch the game.
+
+</details>
 
 ## Currently Configured Parts
 
