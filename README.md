@@ -304,7 +304,7 @@ Furthermore, ROWaterfall will set up `ModuleEngineConfigs`'s B9PS integration by
 
 Note that `ExtraTemplate`s are *not* directly switchable using `MainPlumeVariant`; this must be done by [manually modifying the generated switcher](#modifying-effects-generated-by-rowaterfall).
 
-**Each `ModuleEngineConfigs` `CONFIG` not using the default variant must specify the `name` of the variant to use with the `b9psSubtypeName` key.** (If a config does not set a subtype, it will use the default variant as specified above.)
+**Each `ModuleEngineConfigs` `CONFIG` not using the default variant must specify the `name` of the variant to use with the `rowaterfallVariant` key.** (If a config does not set a variant, it will use the default variant as specified above.)
 
 The below configuration gives the LR-87 engine a kerolox plume variant, activated when the LR87-AJ-3 and LR87-AJ-9-Kero configurations are selected:
 
@@ -344,11 +344,11 @@ The below configuration gives the LR-87 engine a kerolox plume variant, activate
     {
         @CONFIG[LR87-AJ-3]
         {
-            %b9psSubtypeName = kerolox
+            %rowaterfallVariant = kerolox
         }
         @CONFIG[LR87-AJ-9-Kero]
         {
-            %b9psSubtypeName = kerolox
+            %rowaterfallVariant = kerolox
         }
         // ROWaterfall will set all other configs to use the default aerozine50 plume.
     }
